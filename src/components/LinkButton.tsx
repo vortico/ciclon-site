@@ -1,30 +1,20 @@
 import Link from '@/components/Link'
-import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react'
 import React from 'react'
+import Button, { ButtonProps } from '@/components/Button'
 
-interface LinkButtonProps extends React.ComponentProps<'a'> {
-  text: string
-  leftIcon?: boolean
-  rightIcon?: boolean
-}
+interface LinkButtonProps extends ButtonProps, React.ComponentProps<'a'> {}
 
 export default function LinkButton({
   text,
+  color = 'primary',
   leftIcon = false,
   rightIcon = false,
   className,
   ...props
 }: LinkButtonProps) {
   return (
-    <Link
-      {...props}
-      className={`inline-flex h-full items-center rounded-full bg-brand-50 px-4 text-brand-700 hover:bg-brand-200 hover:text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-600 dark:bg-primary-700 dark:text-primary-100 dark:hover:bg-primary-600 dark:hover:text-primary-50 dark:focus:ring-primary-500 ${
-        leftIcon && 'pl-2'
-      } ${rightIcon && 'pr-2'} ${className}`}
-    >
-      {leftIcon && <IconChevronLeft className="h-4 w-4 pr-2" />}
-      <span className="text-left text-sm font-semibold">{text}</span>
-      {rightIcon && <IconChevronRight className="h-4 w-4 pl-2" />}
+    <Link {...props}>
+      <Button text={text} color={color} leftIcon={leftIcon} rightIcon={rightIcon} className={className} />
     </Link>
   )
 }
