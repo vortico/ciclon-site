@@ -1,20 +1,20 @@
 {
-    "name": "Flama",
-    "start_url": "/",
-    "theme_color": "#E25822",
-    "background_color": "#E25822",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "/favicon/icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any maskable"
-        },
-        {
-            "src": "/favicon/icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "name": "Ciclon",
+  "start_url": "/",
+  "theme_color": "#00976E",
+  "background_color": "#00976E",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
