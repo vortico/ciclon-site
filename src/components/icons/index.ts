@@ -1,2 +1,6 @@
+export { default as BosqueIcon } from '@/components/icons/BosqueIcon'
+export { default as BrumaIcon } from '@/components/icons/BrumaIcon'
 export { default as CiclonIcon } from '@/components/icons/CiclonIcon'
+export { default as FlamaIcon } from '@/components/icons/FlamaIcon'
+export { default as VorticoIcon } from '@/components/icons/VorticoIcon'
 export { default as GithubIcon } from '@/components/icons/GithubIcon'

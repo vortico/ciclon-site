@@ -1,5 +1,5 @@
-import CiclonName from '@/components/CiclonName'
 import LinkButton from '@/components/LinkButton'
+import { CiclonName } from '@/components/names'
 import React from 'react'
 
 export default function Hero() {
