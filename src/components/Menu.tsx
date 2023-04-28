@@ -8,7 +8,7 @@ import { createPortal } from 'react-dom'
 
 function Logo() {
   return (
-    <Link href="/" className="flex items-center justify-start gap-2 text-brand-500" aria-label="Flama logo">
+    <Link href="/" className="flex items-center justify-start gap-2 text-brand-500" aria-label="Ciclon logo">
       <CiclonIcon className="h-5 w-5 lg:h-6 lg:w-6" />
       <span className="text-xl lg:text-2xl">Ciclon</span>
     </Link>
@@ -41,7 +41,7 @@ function SocialList() {
       <a
         href="https://github.com/vortico/ciclon"
         className="relative block text-primary-400 hover:text-primary-500 dark:text-primary-600 dark:hover:text-primary-500"
-        aria-label="Flama on Github"
+        aria-label="Ciclon on Github"
       >
         <GithubIcon className="h-5 w-5 lg:h-6 lg:w-6" />
         <Tooltip orientation="bottom-left" className="animate-pulse">

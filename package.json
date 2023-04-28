@@ -9,9 +9,9 @@
   "author": "José Antonio Perdiguero López",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vortico/flama-site/issues"
+    "url": "https://github.com/vortico/ciclon-site/issues"
   },
-  "homepage": "https://flama.dev",
+  "homepage": "https://ciclon.dev",
   "scripts": {
     "start": "npm run dev",
     "dev": "next",
